@@ -208,7 +208,6 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
               {skuSelector}
             </ul>
           )}
-          {l?.onMouseOver?.showCta && cta}
         </figcaption>
       </figure>
       {/* Prices & Name */}
@@ -305,6 +304,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
             </div>
           )
           : ""}
+        {l?.onMouseOver?.showCta && cta}
       </div>
     </div>
   );

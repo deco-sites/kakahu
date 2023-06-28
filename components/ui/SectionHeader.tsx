@@ -1,5 +1,6 @@
 interface Props {
   title?: string;
+  subtitle?: string;
   fontSize?: "Normal" | "Large";
   description?: string;
   alignment: "center" | "left";
